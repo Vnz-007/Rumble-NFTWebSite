@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: 200;
+
+  margin: 27px 80px;
+
+  border: 1px solid #ff5301;
+  border-radius: 10px;
+}
+
+.logo {
+  margin: 2rem 1rem;
+  background-color: #000;
+}
+
+.navlinks ul {
+  display: flex;
+
+  gap: 6rem;
+  margin: 65px 100px;
+
+  list-style: none;
+}
+
+.navlinks ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navlinks ul li a:hover {
+  border-left: 1px solid #fec12a;
+  border-right: 1px solid #fec12a;
+  padding: 10px 15px;
+}
+
+/* Botões */
+.nav-btn {
+  margin: 41.54px 35px 41.46px auto;
+}
+
+.buy {
+  font-weight: 700;
+
+  width: 170px;
+  height: 55px;
+  margin-right: 6px;
+
+  cursor: pointer;
+
+  background: linear-gradient(to left, #fec12a, #ff5301);
+  border-radius: 12px;
+}
+
+.mint {
+  font-weight: 700;
+
+  width: 170px;
+  height: 55px;
+  margin-left: 6px;
+
+  cursor: pointer;
+
+  background: linear-gradient(to right, #91bf01, #445900);
+  border-radius: 12px;
+}
+/* Final da NavBar */
+
+/* Main Content */
+.heroes {
+  display: flex;
+  justify-content: center;
+}
+
+.h2 {
+  position: absolute;
+  z-index: -2;
+
+  top: 26%;
+  left: 32.9%;
+}
+.h3 {
+  position: absolute;
+  z-index: -2;
+
+  top: 26.8%;
+  right: 33.2%;
+}
+.h4 {
+  position: absolute;
+  z-index: -3;
+
+  top: 25.5%;
+  left: 26.1%;
+}
+.h5 {
+  position: absolute;
+  z-index: -3;
+
+  top: 25.1%;
+  right: 26.3%;
+}
+.h6 {
+  position: absolute;
+  z-index: -4;
+
+  top: 21%;
+  left: 25%;
+}
+.h7 {
+  position: absolute;
+  z-index: -4;
+
+  top: 25%;
+  right: 33.4%;
+}
+.h8 {
+  position: absolute;
+  z-index: -5;
+
+  top: 21%;
+  left: 25%;
+}
+.h9 {
+  position: absolute;
+  z-index: -5;
+
+  top: 25%;
+  right: 33.4%;
+}
+/* .heroes {
+  display: flex;
+  position: absolute;
+
+  height: 50vh;
+  gap: 150px;
+  margin: auto;
+
+  overflow: hidden;
+  animation: heroes 20s infinite linear;
+}
+
+@keyframes heroes {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 100%;
+  }
+} */
