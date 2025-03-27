@@ -115,48 +115,27 @@ body {
   position: absolute;
   z-index: -4;
 
-  top: 21%;
-  left: 25%;
+  top: 27%;
+  left: 20%;
 }
 .h7 {
   position: absolute;
   z-index: -4;
 
-  top: 25%;
-  right: 33.4%;
+  top: 27.5%;
+  right: 21%;
 }
 .h8 {
   position: absolute;
   z-index: -5;
 
-  top: 21%;
-  left: 25%;
+  top: 29.9%;
+  left: 18.2%;
 }
 .h9 {
   position: absolute;
   z-index: -5;
 
-  top: 25%;
-  right: 33.4%;
+  top: 28.9%;
+  right: 16%;
 }
-/* .heroes {
-  display: flex;
-  position: absolute;
-
-  height: 50vh;
-  gap: 150px;
-  margin: auto;
-
-  overflow: hidden;
-  animation: heroes 20s infinite linear;
-}
-
-@keyframes heroes {
-  from {
-    right: 0;
-  }
-
-  to {
-    right: 100%;
-  }
-} */
