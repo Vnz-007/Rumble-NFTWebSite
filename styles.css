@@ -28,7 +28,7 @@ body {
 .navlinks ul {
   display: flex;
 
-  gap: 5.5rem;
+  gap: 5rem;
   margin: 65px 100px;
 
   list-style: none;
