@@ -30,7 +30,7 @@ body {
   align-items: center;
 
   gap: 5rem;
-  margin: 40px 100px;
+  margin: 40px auto;
 
   list-style: none;
 }
