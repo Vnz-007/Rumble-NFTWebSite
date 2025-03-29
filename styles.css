@@ -92,58 +92,62 @@ body {
   justify-content: center;
 }
 
+.h1 {
+  z-index: -1;
+}
+
 .h2 {
   position: absolute;
-  z-index: -2;
+  z-index: -3;
 
   top: 26%;
   left: 32.9%;
 }
 .h3 {
   position: absolute;
-  z-index: -2;
+  z-index: -3;
 
   top: 26.8%;
   right: 33.2%;
 }
 .h4 {
   position: absolute;
-  z-index: -3;
+  z-index: -4;
 
   top: 25.5%;
   left: 26.1%;
 }
 .h5 {
   position: absolute;
-  z-index: -3;
+  z-index: -4;
 
   top: 25.1%;
   right: 26.3%;
 }
 .h6 {
   position: absolute;
-  z-index: -4;
+  z-index: -5;
 
   top: 27%;
   left: 20%;
 }
 .h7 {
   position: absolute;
-  z-index: -4;
+  z-index: -5;
 
   top: 27.5%;
   right: 21%;
 }
 .h8 {
   position: absolute;
-  z-index: -5;
+  z-index: -6;
 
   top: 29.9%;
   left: 18.2%;
 }
 .h9 {
   position: absolute;
-  z-index: -5;
+  z-index: -6;
 
   top: 28.9%;
   right: 16%;
@@ -160,7 +164,6 @@ body {
   margin: auto;
 
   color: #fff;
-  box-shadow: 5px 5px 50px #000;
 }
 
 .main-title {
