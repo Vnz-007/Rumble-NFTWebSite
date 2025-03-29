@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-  margin: auto auto auto 20px;
+  margin: auto auto auto 10px;
   background-color: #000;
 }
 
@@ -49,7 +49,7 @@ body {
 
 /* Botões */
 .nav-btn {
-  margin: auto 40px auto auto;
+  margin: auto 30px auto auto;
 }
 
 .buy {
