@@ -257,4 +257,9 @@ body {
     width: 100px;
     height: 50px;
   }
+  .nav-btn .buy,
+  .mint {
+    width: 100px;
+    height: 50px;
+  }
 }
