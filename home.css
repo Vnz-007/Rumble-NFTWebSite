@@ -94,7 +94,7 @@ body {
 
 .h1 {
   z-index: -1;
-  margin-top: -60px;
+  margin-top: auto;
 }
 
 .h2 {
@@ -183,7 +183,7 @@ body {
   background-clip: text;
   background-image: linear-gradient(to left, #ff5301, #fec12a);
 
-  margin-bottom: auto;
+  margin-bottom: 2rem;
 }
 
 .main-p {
