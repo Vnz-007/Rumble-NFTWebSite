@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hiw-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 700px;
+
+  background: url(assets/bg-section-2.png) no-repeat center/cover;
+}
+
+.hiw-text {
+  display: flex;
+  justify-content: center;
+
+  margin-top: -470px;
+}
+
+.hiw-title {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 200;
+  font-size: 110px;
+
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to left, #ff5301, #fec12a);
+}
+
+.hiw-cards-container {
+  display: flex;
+  position: absolute;
+
+  font-family: "Bakbak One", sans-serif;
+
+  gap: 150px;
+  margin-top: 10rem;
+}
+
+/* Card1 */
+.hiw-card1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  padding: 0 50px 25px 50px;
+
+  background-color: #141b22;
+}
+
+.shield {
+  width: 100px;
+  height: 85px;
+
+  margin: auto auto 15px auto;
+}
+
+.step1 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 22px;
+  color: #21e786;
+}
+
+.shield-p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 24px;
+  color: #fff;
+}
+/* Final Card1 */
+
+/* Card 2 */
+.hiw-card2 {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 65px 27px 65px;
+
+  background-color: #141b22;
+}
+
+.notes {
+  width: 90px;
+  height: 85px;
+
+  margin: auto auto 15px auto;
+}
+
+.step2 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 22px;
+  color: #21e786;
+}
+
+.notes-p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 24px;
+  color: #fff;
+}
+/* Final Card2 */
+
+/* Card3 */
+.hiw-card3 {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 35px 25px 35px;
+
+  background-color: #141b22;
+}
+
+.bank {
+  width: 90px;
+  height: 85px;
+
+  margin: auto auto 15px auto;
+}
+
+.step3 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 22px;
+  color: #21e786;
+}
+
+.bank-p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 24px;
+  color: #fff;
+}
+/* Final Card3 */
+
+/* card4 */
+.hiw-card4 {
+  display: flex;
+  flex-direction: column;
+
+  padding: 25px 60px 25px 67px;
+
+  background-color: #141b22;
+}
+
+.shop {
+  width: 90px;
+  height: 85px;
+
+  margin: auto auto 15px auto;
+}
+
+.step4 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 22px;
+  color: #21e786;
+}
+
+.shop-p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 24px;
+  color: #fff;
+}
+/* Final Card4 */
