@@ -205,7 +205,7 @@
 /* Final Card4 */
 
 /* @media query */
-@media (min-width: valor) and (max-width: valor) {
+@media (min-width: 320px) and (max-width: 480px) {
   .hiw-cards-container {
     display: flex;
     flex-direction: column;

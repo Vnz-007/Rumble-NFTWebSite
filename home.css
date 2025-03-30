@@ -10,9 +10,14 @@ body {
   overflow-y: scroll;
   background-color: #000;
 }
-
 body::-webkit-scrollbar {
-  display: none;
+  outline: 1px solid #141b22;
+  background: #000;
+}
+body::-webkit-scrollbar-thumb {
+  border: 1px solid #141b22;
+  border-radius: 9999px;
+  background: #1000;
 }
 
 .navbar {
@@ -269,11 +274,3 @@ body::-webkit-scrollbar {
 /* Final dos Coockies da LP */
 
 /* Media queries */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .coockie-bar {
-    margin: auto;
-  }
-  .heroes {
-    margin: auto;
-  }
-}
