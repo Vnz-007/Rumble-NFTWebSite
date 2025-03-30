@@ -50,7 +50,15 @@
 
   padding: 0 50px 25px 50px;
 
+  cursor: pointer;
+  border: 1px solid #ff5301;
   background-color: #141b22;
+}
+
+.hiw-card1:hover {
+  scale: 1.1;
+  transition: 1s;
+  border: 1px solid #fec12a;
 }
 
 .shield {
@@ -73,6 +81,7 @@
   font-size: 24px;
   color: #fff;
 }
+
 /* Final Card1 */
 
 /* Card 2 */
@@ -82,7 +91,15 @@
 
   padding: 0 65px 27px 65px;
 
+  cursor: pointer;
+  border: 1px solid #ff5301;
   background-color: #141b22;
+}
+
+.hiw-card2:hover {
+  scale: 1.1;
+  transition: 1s;
+  border: 1px solid #fec12a;
 }
 
 .notes {
@@ -114,7 +131,15 @@
 
   padding: 0 35px 25px 35px;
 
+  cursor: pointer;
+  border: 1px solid #ff5301;
   background-color: #141b22;
+}
+
+.hiw-card3:hover {
+  scale: 1.1;
+  transition: 1s;
+  border: 1px solid #fec12a;
 }
 
 .bank {
@@ -146,7 +171,15 @@
 
   padding: 25px 60px 25px 67px;
 
+  cursor: pointer;
+  border: 1px solid #ff5301;
   background-color: #141b22;
+}
+
+.hiw-card4:hover {
+  scale: 1.1;
+  transition: 1s;
+  border: 1px solid #fec12a;
 }
 
 .shop {
