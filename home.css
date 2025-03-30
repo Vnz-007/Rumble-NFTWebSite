@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
-html {
+body {
+  height: 100vh;
+
   overflow-y: scroll;
   background-color: #000;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .navbar {
