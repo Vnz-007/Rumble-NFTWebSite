@@ -203,3 +203,11 @@
   color: #fff;
 }
 /* Final Card4 */
+
+/* @media query */
+@media (min-width: valor) and (max-width: valor) {
+  .hiw-cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
